@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* common css start */
+.container {
+    max-width: 1410px !important;
+    margin: 0 auto;
+    padding: 0 0 !important;
+    position: relative;
+}
+
+.btnn {
+    border: 1px solid #FF5538;
+    border-radius: 18px;
+    background: #FF5538;
+    color: #FFF;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btnn:hover {
+    background: transparent;
+    color: #FF5538;
+    scale: 1.01;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h3 {
+    color: #FF5538;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title h1 {
+    width: 449px;
+    color: #29313D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+/* common css end */
+
+/* header start */
+
+
+.item_box {
+    position: relative;
+}
+
+.angle {
+    position: absolute;
+    right: -25px;
+    top: 70%;
+    transform: translateY(-70%);
+}
+
+.navbar {
+    width: 100%;
+    z-index: 999 !important;
+    position: absolute;
+
+}
+
+.nav-link {
+    padding: 0 !important;
+    color: #29313D !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.navbar-nav {
+    gap: 74px !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* header ends */
+
+/* banner start */
+#banner {
+    padding-top: 293px;
+    padding-bottom: 297px;
+    background: #FBF3F0;
+}
+
+#banner .banner_txt {
+    width: 771px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#banner .banner_txt h1 {
+    color: #29313D;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    width: 771px;
+}
+
+#banner .banner_txt p {
+    width: 771px;
+    padding: 0px 100px;
+    color: #29313D;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    text-transform: capitalize;
+    margin-bottom: 44px;
+
+}
+
+#banner .btnn {
+    margin-left: 24px;
+}
+
+/* banner ends */
+
+/* suggestion start */
+#suggestion {
+    transform: translateY(-50%);
+}
+
+#suggestion .sug_flx {
+    display: flex;
+    justify-content: space-between;
+}
+
+#suggestion .carrd {
+    width: 450px;
+    height: 327px;
+    background: #ffffff;
+    padding-top: 40px;
+    padding-left: 30px;
+    box-shadow: 0px 44px 40px 0px rgba(0, 0, 0, 0.03);
+    transition: .4s;
+
+}
+
+#suggestion .carrd:hover {
+    scale: 1.02;
+}
+
+.carrd h1 {
+    color: #29313D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-top: 34px;
+
+    margin-bottom: 16px;
+}
+
+
+
+.carrd p {
+    width: 394px;
+    color: #29313D;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 200%;
+    text-transform: capitalize;
+}
+
+/* suggestion ends */
+
+/* about start */
+
+#about {
+    position: relative;
+}
+
+#about .lft {
+    position: absolute;
+    top: 284px;
+    left: -35%;
+    width: 945px;
+    transform: translateX(30%);
+    height: 521px;
+    background: #C4C4C4;
+    z-index: 1;
+}
+
+.lftt {
+    width: 300px;
+    height: 300px;
+    display: none;
+    background: #C4C4C4;
+}
+
+#about .rht {
+    margin-left: auto;
+    height: 626px;
+    width: 50%;
+    background: #FBF3F0;
+    padding-top: 102px;
+    padding-left: 100px;
+}
+
+#about .rht h1 {
+    width: 570px;
+    color: #29313D;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#about .rht p {
+    width: 501px;
+    color: #29313D;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    text-transform: capitalize;
+    margin-bottom: 62px;
+}
+
+
+/* about ends */
+
+/* service start */
+
+#services {
+    padding-top: 171px;
+    padding-bottom: 120px;
+}
+
+#services .title {
+    position: relative;
+}
+
+#services .title h3 {
+    margin-bottom: 10px;
+}
+
+#services .title h1 {
+    width: 700px;
+    margin-bottom: 60px;
+}
+
+#services .title .btnn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#services .item1 {
+    width: 575px;
+    height: 458px;
+    background: #C4C4C4;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#services .bottom {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 575px;
+    height: 127px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.06);
+}
+
+#services .bottom h4 {
+    color: #29313D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+#services .bottom a {
+    color: #FF5538;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+#services .item2 {
+    width: 810px;
+    height: 458px;
+    background: #C4C4C4;
+    position: relative;
+}
+
+#services .item2 .bottom {
+    width: 810px;
+}
+
+/* #services .bottom2 {
+
+} */
+
+
+/* service ends */
+
+/* portfolio start */
+/* portfolio ends */
+
+/* trust start */
+/* trust ends */
+
+/* review start */
+/* review ends */
+
+/* contact start */
+/* contact ends */
+
+/* footer start */
+/* footer ends */
