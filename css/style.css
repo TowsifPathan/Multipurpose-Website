@@ -245,6 +245,7 @@ body {
     padding-left: 100px;
 }
 
+
 #about .rht h1 {
     width: 570px;
     color: #29313D;
@@ -353,17 +354,121 @@ body {
     width: 810px;
 }
 
-/* #services .bottom2 {
-
-} */
-
-
 /* service ends */
 
 /* portfolio start */
+
+#portfolio {
+    background: #FDF9F8;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+#portfolio .rate {
+    background: #ffffff;
+    width: 259px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.rate_flx {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#portfolio .rate h1 {
+    color: #29313D;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+#portfolio .rate h2 {
+    color: #29313D;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+#portfolio .portfolio_rht {
+    margin-left: 100px;
+}
+
+#portfolio .portfolio_rht h1 {
+    width: 570px;
+    color: #29313D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#portfolio .portfolio_rht p {
+    width: 550px;
+    color: #29313D;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.pst_res {
+    display: none;
+}
+
 /* portfolio ends */
 
 /* trust start */
+#trust {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+#trust h1 {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 849px;
+    color: #29313D;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+#trust .trust_item {
+    width: 210px;
+    height: 130px;
+    background: #FDF9F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* trust ends */
 
 /* review start */
