@@ -51,11 +51,10 @@
     }
 
     #banner .banner_txt p {
-        margin-left: 23px;
-        width: 250px;
+        width: 310px;
         font-size: 16px;
         padding: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     #banner .btn_box {
@@ -74,7 +73,7 @@
     }
 
     #banner .btnn:hover {
-        scale: 1.02;
+        scale: 1.05;
     }
 
     #suggestion {
@@ -87,43 +86,44 @@
     }
 
     #suggestion .carrd {
+        margin: 0 auto;
         margin-bottom: 20px;
-        width: 310px;
+        width: 300px;
         height: auto;
         text-align: center;
         padding-left: 0;
-        padding-top: 40px;
+        padding-top: 20px;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
         transition: .4s;
     }
 
     #suggestion .carrd:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
     #suggestion .carrd img {
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
     }
 
     #suggestion .carrd h1 {
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
 
     #suggestion .carrd p {
-        font-size: 16px;
-        width: 250px;
+        font-size: 15px;
+        width: 290px;
         margin-bottom: 20px;
         display: inline-block;
-        text-align: left;
+        text-align: center;
     }
 
     #about .title {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     #about .title h3 {
@@ -131,10 +131,10 @@
     }
 
     #about .title h1 {
-        font-size: 24px;
-        width: 280px;
+        font-size: 22px;
+        width: 276px;
         display: inline-block;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .lft {
@@ -151,10 +151,11 @@
     }
 
     #about .rht h1 {
-        font-size: 25px;
+        font-size: 20px;
         width: 310px;
-        display: inline-block;
         margin-bottom: 20px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 
     .lftt {
@@ -166,7 +167,7 @@
     #about .rht p {
         margin-top: 20px;
         font-size: 16px;
-        width: 280px;
+        width: 300px;
         display: inline-block;
         margin-bottom: 15px;
         text-align: center;
@@ -192,36 +193,40 @@
     }
 
     #services .title h1 {
-        font-size: 24px;
-        width: 280px;
+        font-size: 22px;
+        width: 310px;
         display: inline-block;
         margin-bottom: 40px;
     }
-
+    #services .title h3 {
+        font-size: 21px;
+    }
     #services .title .btnn {
         display: none;
     }
 
     #services .item1 {
-        width: 300px;
+        width: 290px;
+        margin: 0 auto;
         height: 260px;
         transition: all ease .4s;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .15);
     }
 
     #services .item1:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
 
     #services .bottom {
-        padding-left: 10px;
-        padding-top: 5px;
+        padding-left: 15px;
+        padding-top: 10px;
         width: 100% !important;
-        height: 70px;
+        height: 30%;
         position: absolute;
+        box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.05);
     }
 
     #services .bottom h4 {
@@ -236,37 +241,17 @@
     }
 
     #services .item2 {
-        width: 300px;
+        width: 290px;
+        margin: 0 auto;
         height: 260px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .15);
         transition: .4s;
     }
 
     #services .item2:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
-    }
-
-
-    #services .bottom {
-        padding-left: 10px;
-        padding-top: 5px;
-        width: 100% !important;
-        height: 70px;
-        position: absolute;
-        box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.05);
-    }
-
-    #services .bottom h4 {
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 0;
-    }
-
-    #services .bottom a {
-        line-height: 0;
-        font-size: 15px;
     }
 
     .pre_res {
@@ -288,23 +273,48 @@
     }
 
     #portfolio .portfolio_rht h1 {
-        width: 300px;
-        font-size: 25px;
+        width: auto;
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    #portfolio .portfolio_rht h5 {
+        width: auto;
+        font-size: 22px;
+        
+    }
+
+    #portfolio .portfolio_rht h2 {
+        font-size: 16px;
     }
 
     #portfolio .portfolio_rht p {
-        width: 300px;
+        width: 310px;
+        font-size: 17px;
+        margin-left: 52%;
+        text-align: left;
+        transform: translateX(-50%);
+        margin-bottom: 20px;
+    }
+    .por-main-flx {
+        display: flex;
+        justify-content: space-around;
     }
 
     #portfolio .portfolio_rht .rate {
-        width: 100%;
+        border-radius: 5px;
+        width: 45%;
+        height: 140px;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
         transition: all ease .4s;
+        margin-bottom: 20px;
     }
 
     #portfolio .portfolio_rht .rate:hover {
-        scale: 1.02;
+        
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
+        border-radius: 0px;
     }
 
     #trust {
@@ -312,46 +322,62 @@
         padding-bottom: 20px;
     }
 
+    .trust_flx {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     #trust h1 {
         width: 310px;
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 30px;
     }
 
     #trust .trust_item {
-        width: 100%;
+        border-radius: 5px;
+        width: 45%;
+        height: 110px;
         margin-bottom: 20px;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
         transition: all ease .4s;
     }
 
     #trust .trust_item:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
+        border-radius: 0px;
+    }
+
+    #trust .trust_item img {
+        width: 105px;
     }
 
     #contact {
         padding-top: 40px;
         padding-bottom: 40px;
-        text-align: center;
+        text-align: left;
     }
 
     #contact h6 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     #contact h3 {
-        font-size: 27px;
-        text-align: center;
+        font-size: 24px;
+        text-align: left;
         margin-bottom: 0;
         margin-top: 0;
     }
+
     #contact p {
-        width: 300px;
-        text-align: center;
-        margin-top: 0;
+        width: 310px;
+        text-align: left;
         font-size: 16px;
+        margin-top: 20px;
+        margin-left: 51%;
+        transform: translateX(-50%);
+
     }
 
     hr {
@@ -359,15 +385,15 @@
     }
 
     .contact_btn {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        position: static;
         border-radius: 12px;
         padding: 9px 18px;
         font-size: 16px;
         transition: .2s;
+        top: 10px;
+        right: 0;
     }
 }
+
 @media (min-width:350px) and (max-width:400px) {
     .container {
         width: 350px;
@@ -421,11 +447,10 @@
     }
 
     #banner .banner_txt p {
-        margin-left: 23px;
-        width: 300px;
+        width: 350px;
         font-size: 16px;
         padding: 0;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     #banner .btn_box {
@@ -444,7 +469,7 @@
     }
 
     #banner .btnn:hover {
-        scale: 1.02;
+        scale: 1.05;
     }
 
     #suggestion {
@@ -457,8 +482,9 @@
     }
 
     #suggestion .carrd {
+        margin: 0 auto;
         margin-bottom: 20px;
-        width: 350px;
+        width: 330px;
         height: auto;
         text-align: center;
         padding-left: 0;
@@ -468,7 +494,7 @@
     }
 
     #suggestion .carrd:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
@@ -478,14 +504,14 @@
     }
 
     #suggestion .carrd h1 {
-        font-size: 18px;
+        font-size: 21px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
 
     #suggestion .carrd p {
-        font-size: 16px;
-        width: 300px;
+        font-size: 15px;
+        width: 330px;
         margin-bottom: 20px;
         display: inline-block;
         text-align: center;
@@ -493,7 +519,7 @@
 
     #about .title {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     #about .title h3 {
@@ -504,7 +530,7 @@
         font-size: 24px;
         width: 280px;
         display: inline-block;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .lft {
@@ -521,10 +547,11 @@
     }
 
     #about .rht h1 {
-        font-size: 25px;
-        width: 310px;
-        display: inline-block;
+        font-size: 23px;
+        width: 360px;
         margin-bottom: 20px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 
     .lftt {
@@ -536,7 +563,7 @@
     #about .rht p {
         margin-top: 20px;
         font-size: 16px;
-        width: 280px;
+        width: 350px;
         display: inline-block;
         margin-bottom: 15px;
         text-align: center;
@@ -562,36 +589,40 @@
     }
 
     #services .title h1 {
-        font-size: 24px;
-        width: 280px;
+        font-size: 23px;
+        width: 330px;
         display: inline-block;
         margin-bottom: 40px;
     }
-
+    #services .title h3 {
+        font-size: 21px;
+    }
     #services .title .btnn {
         display: none;
     }
 
     #services .item1 {
-        width: 350px;
+        width: 330px;
+        margin: 0 auto;
         height: 260px;
         transition: all ease .4s;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .15);
     }
 
     #services .item1:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
 
     #services .bottom {
-        padding-left: 10px;
-        padding-top: 5px;
+        padding-left: 15px;
+        padding-top: 10px;
         width: 100% !important;
-        height: 70px;
+        height: 30%;
         position: absolute;
+        box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.05);
     }
 
     #services .bottom h4 {
@@ -606,37 +637,17 @@
     }
 
     #services .item2 {
-        width: 350px;
+        width: 330px;
+        margin: 0 auto;
         height: 260px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .15);
         transition: .4s;
     }
 
     #services .item2:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
-    }
-
-
-    #services .bottom {
-        padding-left: 10px;
-        padding-top: 5px;
-        width: 100% !important;
-        height: 70px;
-        position: absolute;
-        box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.05);
-    }
-
-    #services .bottom h4 {
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 0;
-    }
-
-    #services .bottom a {
-        line-height: 0;
-        font-size: 15px;
     }
 
     .pre_res {
@@ -657,23 +668,36 @@
         text-align: center;
     }
 
-    #portfolio .portfolio_rht h1 {
-        width: 350px;
+    #portfolio .portfolio_rht h5 {
+        width: auto;
         font-size: 25px;
+    }
+    #portfolio .portfolio_rht h1 {
+        width: auto;
+        font-size: 22px;
+        margin-bottom: 10px;
     }
 
     #portfolio .portfolio_rht p {
         width: 350px;
+        margin-left: 52%;
+        text-align: left;
+        transform: translateX(-50%);
+    }
+    .por-main-flx {
+        display: flex;
+        justify-content: space-around;
     }
 
     #portfolio .portfolio_rht .rate {
-        width: 100%;
+        width: 45%;
+        height: 160px;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
         transition: all ease .4s;
     }
 
     #portfolio .portfolio_rht .rate:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
@@ -682,46 +706,54 @@
         padding-bottom: 20px;
     }
 
+    .trust_flx {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     #trust h1 {
         width: 350px;
-        font-size: 25px;
+        font-size: 23px;
         margin-bottom: 30px;
     }
 
     #trust .trust_item {
-        width: 350px;
+        width: 45%;
         margin-bottom: 20px;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
         transition: all ease .4s;
     }
 
     #trust .trust_item:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
     #contact {
         padding-top: 40px;
         padding-bottom: 40px;
-        text-align: center;
+        text-align: left;
     }
 
     #contact h6 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     #contact h3 {
         font-size: 27px;
-        text-align: center;
+        text-align: left;
         margin-bottom: 0;
         margin-top: 0;
     }
+
     #contact p {
         width: 350px;
-        text-align: center;
-        margin-top: 0;
+        text-align: left;
         font-size: 16px;
+        margin-top: 20px;
+        margin-left: 52%;
+        transform: translateX(-50%);
     }
 
     hr {
@@ -729,15 +761,15 @@
     }
 
     .contact_btn {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        position: static;
         border-radius: 12px;
         padding: 9px 18px;
         font-size: 16px;
         transition: .2s;
+        top: 10px;
+        right: 0;
     }
 }
+
 @media (min-width:400px) and (max-width:450px) {
     .container {
         width: 400px;
@@ -814,7 +846,7 @@
     }
 
     #banner .btnn:hover {
-        scale: 1.02;
+        scale: 1.05;
     }
 
     #suggestion {
@@ -838,23 +870,23 @@
     }
 
     #suggestion .carrd:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
     #suggestion .carrd img {
-        width: 70px;
-        height: 70px;
+        width: 75px;
+        height: 75px;
     }
 
     #suggestion .carrd h1 {
-        font-size: 18px;
+        font-size: 22px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
 
     #suggestion .carrd p {
-        font-size: 16px;
+        font-size: 17px;
         width: 350px;
         margin-bottom: 20px;
         display: inline-block;
@@ -863,7 +895,7 @@
 
     #about .title {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     #about .title h3 {
@@ -874,7 +906,7 @@
         font-size: 24px;
         width: 280px;
         display: inline-block;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .lft {
@@ -891,10 +923,11 @@
     }
 
     #about .rht h1 {
-        font-size: 25px;
-        width: 350px;
-        display: inline-block;
+        font-size: 23px;
+        width: 360px;
         margin-bottom: 20px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 
     .lftt {
@@ -932,36 +965,40 @@
     }
 
     #services .title h1 {
-        font-size: 24px;
-        width: 280px;
+        font-size: 23px;
+        width: 330px;
         display: inline-block;
         margin-bottom: 40px;
     }
-
+    #services .title h3 {
+        font-size: 21px;
+    }
     #services .title .btnn {
         display: none;
     }
 
     #services .item1 {
-        width: 400px;
+        width: 380px;
+        margin: 0 auto;
         height: 260px;
         transition: all ease .4s;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .15);
     }
 
     #services .item1:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
 
     #services .bottom {
-        padding-left: 10px;
-        padding-top: 5px;
+        padding-left: 15px;
+        padding-top: 10px;
         width: 100% !important;
-        height: 70px;
+        height: 30%;
         position: absolute;
+        box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.05);
     }
 
     #services .bottom h4 {
@@ -976,37 +1013,17 @@
     }
 
     #services .item2 {
-        width: 400px;
+        width: 380px;
+        margin: 0 auto;
         height: 260px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .15);
         transition: .4s;
     }
 
     #services .item2:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
-    }
-
-
-    #services .bottom {
-        padding-left: 10px;
-        padding-top: 5px;
-        width: 100% !important;
-        height: 70px;
-        position: absolute;
-        box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.05);
-    }
-
-    #services .bottom h4 {
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 0;
-    }
-
-    #services .bottom a {
-        line-height: 0;
-        font-size: 15px;
     }
 
     .pre_res {
@@ -1027,23 +1044,36 @@
         text-align: center;
     }
 
-    #portfolio .portfolio_rht h1 {
-        width: 400px;
+    #portfolio .portfolio_rht h5 {
+        width: auto;
         font-size: 25px;
+    }
+    #portfolio .portfolio_rht h1 {
+        width: auto;
+        font-size: 22px;
+        margin-bottom: 10px;
     }
 
     #portfolio .portfolio_rht p {
-        width: 400px;
+        width: 375px;
+        margin-left: 52%;
+        text-align: left;
+        transform: translateX(-50%);
+    }
+    .por-main-flx {
+        display: flex;
+        justify-content: space-around;
     }
 
     #portfolio .portfolio_rht .rate {
-        width: 100%;
+        width: 45%;
+        height: 160px;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
         transition: all ease .4s;
     }
 
     #portfolio .portfolio_rht .rate:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
@@ -1052,48 +1082,54 @@
         padding-bottom: 20px;
     }
 
+    .trust_flx {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     #trust h1 {
         width: 400px;
-        font-size: 25px;
+        font-size: 23px;
         margin-bottom: 30px;
     }
 
     #trust .trust_item {
-        width: 400px;
+        width: 45%;
         margin-bottom: 20px;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
         transition: all ease .4s;
     }
 
     #trust .trust_item:hover {
-        scale: 1.02;
+        scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
     }
 
     #contact {
         padding-top: 40px;
         padding-bottom: 40px;
-        text-align: center;
+        text-align: left;
     }
 
     #contact h6 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     #contact h3 {
         font-size: 27px;
-        text-align: center;
+        text-align: left;
         margin-bottom: 0;
         margin-top: 0;
     }
+
     #contact p {
-        width: 350px;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-        margin-top: 0;
+        width: 398px;
+        text-align: left;
         font-size: 16px;
+        margin-top: 20px;
+        margin-left: 52%;
+        transform: translateX(-50%);
     }
 
     hr {
@@ -1101,12 +1137,11 @@
     }
 
     .contact_btn {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        position: static;
         border-radius: 12px;
         padding: 9px 18px;
         font-size: 16px;
         transition: .2s;
+        top: 10px;
+        right: 0;
     }
 }

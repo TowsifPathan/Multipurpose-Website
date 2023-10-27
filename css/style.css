@@ -440,6 +440,17 @@ body {
     margin-left: 100px;
 }
 
+#portfolio .portfolio_rht h5 {
+    width: 570px;
+    color: #29313D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
 #portfolio .portfolio_rht h1 {
     width: 570px;
     color: #29313D;
@@ -474,6 +485,12 @@ body {
 #trust {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.trust_flx {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
