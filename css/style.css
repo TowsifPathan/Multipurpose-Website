@@ -217,7 +217,7 @@ body {
 
 #about {
     position: relative;
-    
+
 }
 
 #about .lft {
@@ -231,11 +231,21 @@ body {
     z-index: 1;
 }
 
+#about .lft img {
+    width: 100%;
+    height: 100%;
+}
+
 .lftt {
     width: 300px;
     height: 300px;
     display: none;
     background: #C4C4C4;
+}
+
+.lftt {
+
+    display: none;
 }
 
 .rht_bg {
@@ -246,7 +256,7 @@ body {
     margin-left: auto;
     height: 626px;
     width: 50%;
-    
+
     padding-top: 102px;
     padding-left: 100px;
 }
@@ -276,6 +286,7 @@ body {
     text-transform: capitalize;
     margin-bottom: 62px;
 }
+
 .af_res {
     display: block;
 }
@@ -329,6 +340,11 @@ body {
 
 }
 
+#services .item1 img {
+    width: 100%;
+    height: calc(100% - 127px);
+}
+
 #services .bottom {
     padding-left: 30px;
     padding-top: 30px;
@@ -370,6 +386,12 @@ body {
     position: relative;
     transition: .4s;
 }
+
+#services .item2 img {
+    width: 100%;
+    height: calc(100% - 127px);
+}
+
 
 #services .item2:hover {
     scale: 1.01;
@@ -451,6 +473,7 @@ body {
     text-transform: capitalize;
     margin-bottom: 20px;
 }
+
 #portfolio .portfolio_rht h1 {
     width: 570px;
     color: #29313D;
@@ -546,7 +569,8 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 28px */
+    line-height: 140%;
+    /* 28px */
     text-transform: capitalize;
     text-align: left;
 }
@@ -554,37 +578,100 @@ body {
 #contact h3 {
     color: #29313D;
 
-text-align: center;
-font-family: 'Poppins', sans-serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 140%; /* 67.2px */
-text-transform: capitalize;
-margin-top: 7px;
-margin-bottom: 48px;
-text-align: left;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 67.2px */
+    text-transform: capitalize;
+    margin-top: 7px;
+    margin-bottom: 48px;
+    text-align: left;
 }
 
 .contact_btn {
-position: absolute;
-right: 0;
-top: 19px;
+    position: absolute;
+    right: 0;
+    top: 19px;
 }
 
 #contact p {
-margin-top: 24px;
-color: #29313D;
-font-family: 'Nunito', sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 180%; /* 36px */
-text-transform: capitalize;
-width: 1250px;
+    margin-top: 24px;
+    color: #29313D;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 36px */
+    text-transform: capitalize;
+    width: 1250px;
 }
 
 /* contact ends */
 
 /* footer start */
+footer {
+    padding-top: 140px;
+    padding-bottom: 57px;
+}
+
+.footer_flx {
+    display: flex;
+}
+
+footer .lft {
+    margin-right: 212px;
+}
+
+footer .footer_lft p {
+    width: 449px;
+    color: #29313D;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    opacity: 0.9;
+    margin-top: 44px;
+}
+
+footer .rht {
+    display: flex;
+    gap: 160px;
+}
+
+footer .rht label {
+    color: #29313D;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+text-transform: capitalize;
+margin-bottom: 48px;
+}
+
+footer .rht ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .rht ul a {
+    color: #29313D;
+    font-family: 'Nunito', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+text-decoration: none;
+text-transform: capitalize;
+}
+
 /* footer ends */
