@@ -181,6 +181,7 @@ body {
 
 #suggestion .carrd:hover {
     scale: 1.02;
+    box-shadow: 0px 44px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
 .carrd h1 {
@@ -216,6 +217,7 @@ body {
 
 #about {
     position: relative;
+    
 }
 
 #about .lft {
@@ -236,11 +238,15 @@ body {
     background: #C4C4C4;
 }
 
+.rht_bg {
+    background: #FBF3F0;
+}
+
 #about .rht {
     margin-left: auto;
     height: 626px;
     width: 50%;
-    background: #FBF3F0;
+    
     padding-top: 102px;
     padding-left: 100px;
 }
@@ -269,6 +275,13 @@ body {
     line-height: 200%;
     text-transform: capitalize;
     margin-bottom: 62px;
+}
+.af_res {
+    display: block;
+}
+
+.bef_res {
+    display: none;
 }
 
 
@@ -307,6 +320,13 @@ body {
     background: #C4C4C4;
     margin-bottom: 30px;
     position: relative;
+    transition: .4s;
+}
+
+#services .item1:hover {
+    scale: 1.01;
+    box-shadow: 0px 44px 40px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 #services .bottom {
@@ -348,6 +368,13 @@ body {
     height: 458px;
     background: #C4C4C4;
     position: relative;
+    transition: .4s;
+}
+
+#services .item2:hover {
+    scale: 1.01;
+    box-shadow: 0px 44px 40px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 #services .item2 .bottom {
@@ -370,6 +397,12 @@ body {
     width: 259px;
     height: 230px;
     margin-bottom: 30px;
+    transition: .4s;
+}
+
+#portfolio .rate:hover {
+    scale: 1;
+    box-shadow: 0px 44px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
 .rate_flx {
@@ -467,6 +500,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .4s;
+}
+
+#trust .trust_item:hover {
+    scale: 1;
+    box-shadow: 0px 44px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* trust ends */
@@ -475,6 +514,59 @@ body {
 /* review ends */
 
 /* contact start */
+#contact {
+    background: #FFD7C8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#contact h6 {
+    color: #29313D;
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    text-transform: capitalize;
+    text-align: left;
+}
+
+#contact h3 {
+    color: #29313D;
+
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 67.2px */
+text-transform: capitalize;
+margin-top: 7px;
+margin-bottom: 48px;
+text-align: left;
+}
+
+.contact_btn {
+position: absolute;
+right: 0;
+top: 119px;
+}
+
+#contact p {
+margin-top: 24px;
+color: #29313D;
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 36px */
+text-transform: capitalize;
+width: 1250px;
+}
+
 /* contact ends */
 
 /* footer start */
