@@ -7,6 +7,10 @@
         display: none;
     }
 
+    .navbar {
+        margin-top: 15px;
+    }
+
     .navbar-nav {
         gap: 0 !important;
         padding-left: 120px;
@@ -45,7 +49,8 @@
     }
 
     #banner .banner_txt h1 {
-        width: 310px;
+        display: inline-block;
+        width: 280px;
         font-size: 27px;
 
     }
@@ -204,9 +209,11 @@
         display: inline-block;
         margin-bottom: 40px;
     }
+
     #services .title h3 {
         font-size: 21px;
     }
+
     #services .title .btnn {
         display: none;
     }
@@ -229,7 +236,7 @@
         width: 100%;
         height: calc(100% - 30%);
     }
-    
+
 
 
     #services .bottom {
@@ -298,7 +305,7 @@
     #portfolio .portfolio_rht h5 {
         width: auto;
         font-size: 22px;
-        
+
     }
 
     #portfolio .portfolio_rht h2 {
@@ -313,6 +320,7 @@
         transform: translateX(-50%);
         margin-bottom: 20px;
     }
+
     .por-main-flx {
         display: flex;
         justify-content: space-around;
@@ -322,13 +330,13 @@
         border-radius: 5px;
         width: 45%;
         height: 140px;
-        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .09);
         transition: all ease .4s;
         margin-bottom: 20px;
     }
 
     #portfolio .portfolio_rht .rate:hover {
-        
+
         scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
         border-radius: 0px;
@@ -440,7 +448,84 @@
     footer .rht ul {
         gap: 15px;
     }
-    
+
+    #review {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        position: relative;
+    }
+
+    #review h1 {
+        color: #29313D;
+        width: auto;
+        font-size: 25px;
+        position: static;
+        text-align: center;
+    }
+
+    #review .rev_lft {
+        margin-right: 0;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    #review .rev_lft p {
+        width: auto;
+        order: 2;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #review .rev_lft h4 {
+        font-size: 27px;
+        order: 3;
+        text-align: center;
+    }
+
+    #review .rht {
+        position: static;
+        width: 100%;
+        height: 350px;
+        order: 4;
+    }
+    .carousel-item {
+        position: relative;
+        display: none;
+        float: left;
+        width: 310px;
+        margin-right: -100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition:.6s ease-in-out;
+    }
+
+    #review .face_flx {
+        display: flex;
+        gap: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #review .face {
+        width: 45%;
+        height: 130px;
+        background: #C4C4C4;
+        margin-top: 0;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+
+    .slider_btn {
+        display: none;
+    }
+
+    .slider_btn_rht {
+        display: none;
+    }
+
 }
 
 @media (min-width:360px) and (max-width:410px) {
@@ -450,6 +535,10 @@
 
     .nav_btn {
         display: none;
+    }
+
+    .navbar {
+        margin-top: 15px;
     }
 
     .navbar-nav {
@@ -490,7 +579,8 @@
     }
 
     #banner .banner_txt h1 {
-        width: 350px;
+        display: inline-block;
+        width: 280px;
         font-size: 27px;
 
     }
@@ -649,9 +739,11 @@
         display: inline-block;
         margin-bottom: 40px;
     }
+
     #services .title h3 {
         font-size: 21px;
     }
+
     #services .title .btnn {
         display: none;
     }
@@ -674,7 +766,7 @@
         width: 100%;
         height: calc(100% - 30%);
     }
-    
+
 
 
     #services .bottom {
@@ -739,6 +831,7 @@
         width: auto;
         font-size: 25px;
     }
+
     #portfolio .portfolio_rht h1 {
         width: auto;
         font-size: 22px;
@@ -751,6 +844,7 @@
         text-align: left;
         transform: translateX(-50%);
     }
+
     .por-main-flx {
         display: flex;
         justify-content: space-around;
@@ -759,7 +853,7 @@
     #portfolio .portfolio_rht .rate {
         width: 45%;
         height: 160px;
-        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .09);
         transition: all ease .4s;
     }
 
@@ -877,6 +971,10 @@
         display: none;
     }
 
+    .navbar {
+        margin-top: 15px;
+    }
+
     .navbar-nav {
         gap: 0 !important;
         padding-left: 120px;
@@ -915,7 +1013,8 @@
     }
 
     #banner .banner_txt h1 {
-        width: 400px;
+        display: inline-block;
+        width: 280px;
         font-size: 27px;
 
     }
@@ -1020,6 +1119,8 @@
         padding-bottom: 30px;
     }
 
+
+
     #about .rht h1 {
         font-size: 23px;
         width: 360px;
@@ -1074,9 +1175,11 @@
         display: inline-block;
         margin-bottom: 40px;
     }
+
     #services .title h3 {
         font-size: 21px;
     }
+
     #services .title .btnn {
         display: none;
     }
@@ -1099,7 +1202,7 @@
         width: 100%;
         height: calc(100% - 30%);
     }
-    
+
 
 
     #services .bottom {
@@ -1164,6 +1267,7 @@
         width: auto;
         font-size: 25px;
     }
+
     #portfolio .portfolio_rht h1 {
         width: auto;
         font-size: 22px;
@@ -1176,6 +1280,7 @@
         text-align: left;
         transform: translateX(-50%);
     }
+
     .por-main-flx {
         display: flex;
         justify-content: space-around;
@@ -1184,13 +1289,17 @@
     #portfolio .portfolio_rht .rate {
         width: 45%;
         height: 160px;
-        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .15);
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .09);
         transition: all ease .4s;
     }
 
     #portfolio .portfolio_rht .rate:hover {
         scale: 1.05;
         box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .25);
+    }
+
+    #review .review_flx {
+        flex-direction: column;
     }
 
     #trust {
