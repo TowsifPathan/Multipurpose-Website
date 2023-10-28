@@ -557,6 +557,11 @@ body {
     padding-top: 139px;
     padding-bottom: 120px;
     position: relative;
+    background: #FDF9F8;
+}
+
+.rev_flx {
+    display: flex;
 }
 
 #review h1 {
@@ -566,49 +571,27 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
-    /* 67.2px */
     text-transform: capitalize;
-    position: absolute;
-    top:-60px;
-    left: 0;
-    z-index: 999;
 }
 
-.review_flx {
-    display: flex;
+.rev_lft {
+    margin-right: 212px;
 }
-
-
-#review .face_flx {
-    display: flex;
-    gap: 28px;
-}
-
 
 #review .face {
+    display: flex;
+    gap: 28px;
+    margin: 60px 0px;
+}
+
+#review .face .item {
     width: 100px;
     height: 100px;
     background: #C4C4C4;
-    margin-top: 60px;
-    margin-bottom: 60px;
     border-radius: 20px;
-    transition: .4s;
 }
 
-#review .face img {
-    width: 100%;
-    height: 100%;
-}
-
-#review .face:hover {
-    scale: 1.05;
-}
-
-#review .rev_lft {
-    margin-right: 150px;
-}
-
-#review .rev_lft p {
+#review p {
     width: 690px;
     color: #29313D;
     font-family: 'Nunito', sans-serif;
@@ -622,69 +605,48 @@ body {
     margin-bottom: 60px;
 }
 
-#review .rev_lft h4 {
+#review h4 {
     color: #29313D;
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: 180%;
+    /* 64.8px */
     text-transform: capitalize;
 }
 
-#review .rht {
-    position: absolute;
-    top: 0;
-    right: 72px;
+#review .rev_rht {
     width: 501px;
-    height: 457px;
+    height: 557px;
     background: #C4C4C4;
     border-radius: 30px;
 }
 
-#review .rht img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
+#review .rev_rht img {
+width: 100%;
+height: 100%;
+border-radius: 30px;
+
 }
 
-
-.slider_btn {
+.sld_btn {
     opacity: 1 !important;
     width: 64px;
     height: 64px;
-    top: 389px;
+    position: absolute;
+    top: 455px;
     left: 201px;
-    background: #FFDDD7;
-    color: #000;
-    border: none;
-    transition: .4s !important;
 }
-
-.slider_btn:hover {
-   background: #FF5538;
-   color: #fff;
-scale: 1;
-}
-
-
-.slider_btn_rht {
+.sld_btn_rht {
     opacity: 1 !important;
     width: 64px;
     height: 64px;
-    top: 389px;
-    left: 288px;
-    background: #FFDDD7;
-    color: #000;
-    border:none;
-    transition: .4s !important;
+    position: absolute;
+    top: 455px;
+    left: 289px;
 }
 
-.slider_btn_rht:hover {
-    background: #FF5538;
-    color: #fff;
- scale: 1;
- }
 
 /* review ends */
 

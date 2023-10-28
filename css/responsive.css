@@ -448,82 +448,100 @@
     footer .rht ul {
         gap: 15px;
     }
-
     #review {
-        padding-top: 30px;
+        padding-top: 40px;
         padding-bottom: 40px;
         position: relative;
+        background: #FDF9F8;
+    }
+
+    .carousel-item {
+        width: 310px;
+    }
+
+    .rev_flx {
+        flex-direction: column;
     }
 
     #review h1 {
-        color: #29313D;
-        width: auto;
-        font-size: 25px;
-        position: static;
-        text-align: center;
-    }
-
-    #review .rev_lft {
-        margin-right: 0;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        width: auto;
-    }
-
-    #review .rev_lft p {
-        width: auto;
-        order: 2;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    #review .rev_lft h4 {
-        font-size: 27px;
-        order: 3;
-        text-align: center;
-    }
-
-    #review .rht {
-        position: static;
-        width: 100%;
-        height: 350px;
-        order: 4;
-    }
-    .carousel-item {
-        position: relative;
-        display: none;
-        float: left;
+        order: 1;
+        font-size: 22px;
         width: 310px;
-        margin-right: -100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        transition:.6s ease-in-out;
-    }
-
-    #review .face_flx {
-        display: flex;
-        gap: 0;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        text-align: center;
+        margin-bottom: 0 !important;
     }
 
     #review .face {
-        width: 45%;
-        height: 130px;
-        background: #C4C4C4;
-        margin-top: 0;
+        order: 2;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: space-around;
+        margin-top: 15px;
         margin-bottom: 20px;
-        border-radius: 20px;
-        transition: .4s;
+        width: 310px;
     }
 
-    .slider_btn {
-        display: none;
+    #review .face .item {
+        width: 45%;
+        height: 135px;
+        margin-top: 25px;
     }
 
-    .slider_btn_rht {
-        display: none;
+    #review p {
+        width: 310px;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        order: 4;
+    }
+
+    #review h4 {
+        order: 3;
+        font-size: 27px;
+        margin: 11px 0px;
+        margin-left: 20px;
+    }
+
+    #review .rev_rht {
+        width: 310px;
+        height: 310px;
+        margin-top: 10px;
+    }
+
+    .btn_box {
+        background: #FDF9F8;
+    }
+
+    .sld_btn {
+        width: 52px;
+        height: 52px;
+        position: absolute;
+        top: 395px;
+        left: 164px;
+        
+    }
+
+    .sld_btn:hover {
+        background: #FDF9F8;
+    }
+
+    .sld_btn_rht {
+        width: 52px;
+        height: 52px;
+        top: 395px;
+        left: 230px;
+       
+    }
+
+    .sld_btn_rht:hover {
+        background: #FDF9F8;
+    }
+
+    .rev_lft {
+        display: flex;
+        flex-direction: column;
     }
 
 }
