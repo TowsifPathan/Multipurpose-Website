@@ -591,6 +591,12 @@ body {
     border-radius: 20px;
 }
 
+#review .face .item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
 #review p {
     width: 690px;
     color: #29313D;
