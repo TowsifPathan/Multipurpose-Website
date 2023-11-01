@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
 
 /* common css start */
 .container {
@@ -68,15 +75,18 @@
 /* header start */
 
 
-.item_box {
-    position: relative;
+.angle {
+    color: #29313D;
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    transform: translate(0 , -45%);
+    width: 18px;
+    height: 18px;
 }
 
-.angle {
-    position: absolute;
-    right: -25px;
-    top: 70%;
-    transform: translateY(-70%);
+.item_box {
+    position: relative;
 }
 
 .navbar {
@@ -137,8 +147,9 @@
 }
 
 #banner .banner_txt p {
-    width: 771px;
-    padding: 0px 100px;
+    margin: 0 auto;
+    width: 550px;
+    display: block;
     color: #29313D;
     text-align: center;
     font-family: 'Nunito', sans-serif;
@@ -148,10 +159,9 @@
     line-height: 200%;
     text-transform: capitalize;
     margin-bottom: 44px;
-
 }
 
-#banner .btnn {
+#banner .r_btn {
     margin-left: 24px;
 }
 
